@@ -1,0 +1,185 @@
+<app-header></app-header>
+
+<div class="container">
+    <section class="home-sections text-center mt-5">
+        <div class="text-primary p1">
+            <h1 class="header">SOLICITA TU PRÉSTAMO EN LÍNEA</h1>
+            <p class="prestamo-online">
+                Pide tu préstamo de forma sencilla y totalmente digital, te la ponemos fácil
+            </p>
+        </div>
+        <div class="card border-primary mb-3 card-style shadowbox pb-3 mb-4">
+            <div class="row grid-card">
+                <div class="card-body text-primary col-12">
+                    <h5 class="card-title title">Monto</h5>
+                    <p class="card-text p1 pb-5">¿Cuánto quieres recibir?</p>
+                    <div class="slider-circle">
+                        <img src="assets/images/home/slider_monto_completo.png" class="img-fluid img-circle" alt="">
+                        <p class="p1">$0,000,000</p>
+                        <img src="assets/images/home/monto.png" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-right pt-4">
+                            <p class="p-grey-right">$100,000</p>
+                        </div>
+                        <div class="col-6 text-left pt-4">
+                            <p class="p-grey-left">$1,500,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body text-primary col-12">
+                    <h5 class="card-title title-2">Plazo</h5>
+                    <p class="card-text p2 pb-5">¿Cuánto quieres pagar?</p>
+                    <div class="slider-circle">
+                        <img src="assets/images/home/slider_plazo_completo.png" class="img-fluid img-circle" alt="">
+                        <p class="p-month">3 meses</p>
+                        <img src="assets/images/home/plazo.png" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-6 text-right pt-4">
+                            <p class="p-grey-right">1 mes</p>
+                        </div>
+                        <div class="col-6 text-left pt-4">
+                            <p class="p-grey-left">3 meses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-5 grid-card">
+                <div class="col-12">
+                    <h5 class="card-title title">Total a pagar</h5>
+                    <img class="flecha-total" src="assets/images/home/flecha_como_funciona.png" alt="">
+                    <h5 class="p3 pb-3">$0,000,000</h5>
+                    <button type="button" class="btn btn-primary btn-lg button-style">Solicitar mi préstamo</button>
+                </div>
+            </div>
+        </div>
+        <div class="row textmore shadowbox pb-3">
+            <div (click)="toNecesito()" class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="pb-1">
+                    CONOCE CÓMO FUNCIONA
+                </div>
+                <img src="assets/images/home/flecha_como_funciona.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="home-sections text-center mt-5">
+        <div id="necesito" class="text-primary">
+            <h1>¿Qué necesito?</h1>
+            <p class="prestamo-desc">Sólo debes cumplir con estas simples condiciones</p>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="col-6 ml-4" src="assets/images/home/mayor_de_edad.png" alt="">
+                        <p class="col-6 title ">Ser mayor<br>de edad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="col-6 title-1">Tener una dirección de correo electrónico</p>
+                        <img class="col-6" src="assets/images/home/email_que_necesito.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="col-6 ml-5" src="assets/images/home/celular_que_necesito.png" alt="" style="max-width: 40% !important;">
+                        <p class="col-6 title-2">Tener un número de teléfono celular
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <p class="title-1 col-6">Vivir en <br> Colombia</p>
+                        <img src="assets/images/home/colombia.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row textmore shadowbox pb-3">
+            <div (click)="toPasos()" class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="pb-1">
+                    ENTÉRATE DE LOS PASOS A SEGUIR
+                </div>
+                <img src="assets/images/home/flecha_como_funciona.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="home-sections text-center mt-5">
+
+        <div id="pasos" class="text-primary">
+            <h1>¿Cómo obtengo mi préstamo?</h1>
+            <p class="prestamo-desc">Sólo tienes que seguir estos simples pasos</p>
+        </div>
+
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section-2">
+                    <p class="title">
+                        Simula tu préstamo
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/home/simula_tu_prestamo.png" alt="">
+                        <p class="description ml-3">Ingresa las características de tu préstamo y observa cuánto deberás pagar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section-2">
+                    <p class="title-1">
+                        Regístrate
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/home/registrate.png" alt="">
+                        <p class="description-1 ml-3">Crea tu cuenta en nuestra plataforma ingresando tus datos personales.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section-2">
+                    <p class="title-1">
+                        Llena el formulario
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/home/llena_el_formulario.png" alt="">
+                        <p class="description-1 ml-3">Llena el formulario de datos y espera la aprobación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="grid-section-2">
+                    <p class="title-1">
+                        Espera la aprobación y ¡listo!
+                    </p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/home/espera_la_aprobacion.png" alt="">
+                        <p class="description-1 ml-3">Te avisaremos si fue aprobado tu préstamo para que firmes el contrato y recibas tu dinero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<app-footer></app-footer>

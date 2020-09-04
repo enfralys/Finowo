@@ -1,0 +1,77 @@
+<div class="main-menu">
+    <div class="logo">
+        <a routerLink="/home2">FINOWO</a>
+    </div>
+    <a class="hamburger-menu d-flex" (click)="menu(true)">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </a>
+    <div [ngClass]="{'active': open}" class="menu d-flex">
+        <a class="close-btn" (click)="menu(false)">
+            <span class="mdi mdi-close"></span>
+        </a>
+        <ul class="d-flex flex-column">
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/home.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        Inicio
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/home.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        Regístrate / Inicia Sesión
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/quienes_somos.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        ¿Quiénes somos?
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/home.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        Preguntas Frecuentes
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/home.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        Blog
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a class="menu-links">
+                    <div class="icon">
+                        <img src="../../../../assets/images/header/contacto.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="text">
+                        Contacto
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

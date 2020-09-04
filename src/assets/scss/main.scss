@@ -1,0 +1,32 @@
+@import "mixins";
+@import "variables";
+
+/* Mostrar más */
+
+// General
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    font-weight: 800;
+    font-size: 1.35rem;
+    padding: 0 1.7rem;
+}
+
+.shadowbox {
+    box-shadow: 0 9px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    &:hover {
+        box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.textmore {
+    word-break: break-word;
+    cursor: pointer;
+    font-weight: bold;
+    color: $primary;
+    line-height: 1.5;
+}
